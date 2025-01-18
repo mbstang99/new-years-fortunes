@@ -199,5 +199,4 @@ var button = document.getElementById("button");
   outputEl.style.backgroundPosition = "center";
   outputEl.style.backgroundRepeat = "no-repeat";
   outputEl.style.backgroundSize = "cover";
- outputEl.style.padding = "20px 120px";
 });
