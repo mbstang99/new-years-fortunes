@@ -200,28 +200,7 @@ button.addEventListener("click",function (){
         outputEl.style.backgroundPosition = "center";
         outputEl.style.backgroundRepeat = "no-repeat";
         outputEl.style.backgroundSize = "cover";
-        outputEl.style.padding = "20px 160px";
-
-        // Create style element (only create it ONCE)
-        let style = document.getElementById("dynamic-styles");
-        if (!style) {
-            style = document.createElement('style');
-            style.id = "dynamic-styles";
-            document.head.appendChild(style);
         }
 
-        style.innerHTML = `
-            @media (max-width: 768px) {
-                #output {
-                    background-image: url("bannermobile.png");
-                    padding: 10px 20px;
-                }
-                #output p {
-                    font-size: 14px;
-                }
-            }
-        `;
-    } else {
-        console.error("Output element not found!");
-    }
+
 });
