@@ -1,0 +1,54 @@
+/*#picture {background-image: src="img/fireworksheader.jpg";
+ background-color: #cccccc;}
+ #body{background-color:black;
+ color:white;}*/
+
+#body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+    background-color: #1a1c32;
+    text-shadow: 3px 3px #000000;
+
+}
+
+#picture {
+  background-image: url("lantern.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  opacity: .75;
+}
+
+#text {
+  text-align: center;
+  position: absolute;
+  font-size: 35px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#button {
+	background-color: #bf0000;
+	border-radius:28px;
+	border:1px solid #640000 ;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
