@@ -200,4 +200,20 @@ var button = document.getElementById("button");
   outputEl.style.backgroundRepeat = "no-repeat";
   outputEl.style.backgroundSize = "cover";
   outputEl.style.padding = "20px 160px";
+
+      // Create style element
+    const style = document.createElement('style');
+    style.id = "dynamic-styles"; //Give it an id for easy access later
+
+    style.innerHTML = `
+        @media (max-width: 768px) {
+            #output {
+                background-image: url("bannermobile.png");
+                padding: 10px 20px;
+            }
+            #output p {
+                font-size: 14px;
+            }
+        }
+    `;
 });
