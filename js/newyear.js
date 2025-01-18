@@ -187,33 +187,41 @@ var value = Math.floor(Math.random() * 58);;
 
 //On button run function
 var button = document.getElementById("button");
-  button.addEventListener("click",function (){
+button.addEventListener("click",function (){
     var fortune = getFortune();
-  button.addEventListener("click", console.log("working"));
-//output
-  var outputEl = document.getElementById ("output");
-    outputEl.innerHTML = fortune
-    outputEl.style.fontFamily = "Comic Sans MS,Arial,sans-serif"
-    outputEl.style.color = " #dfa727";
-  outputEl.style.backgroundImage = "url('banner.png')";
-  outputEl.style.backgroundPosition = "center";
-  outputEl.style.backgroundRepeat = "no-repeat";
-  outputEl.style.backgroundSize = "cover";
-  outputEl.style.padding = "20px 160px";
+    // REMOVE THIS LINE: button.addEventListener("click", console.log("working"));
+    //output
+    var outputEl = document.getElementById ("output");
+    if (outputEl) { // Very important null check
+        outputEl.innerHTML = fortune;
+        outputEl.style.fontFamily = "Comic Sans MS,Arial,sans-serif";
+        outputEl.style.color = " #dfa727";
+        outputEl.style.backgroundImage = "url('banner.png')";
+        outputEl.style.backgroundPosition = "center";
+        outputEl.style.backgroundRepeat = "no-repeat";
+        outputEl.style.backgroundSize = "cover";
+        outputEl.style.padding = "20px 160px";
 
-      // Create style element
-    const style = document.createElement('style');
-    style.id = "dynamic-styles"; //Give it an id for easy access later
-
-    style.innerHTML = `
-        @media (max-width: 768px) {
-            #output {
-                background-image: url("bannermobile.png");
-                padding: 10px 20px;
-            }
-            #output p {
-                font-size: 14px;
-            }
+        // Create style element (only create it ONCE)
+        let style = document.getElementById("dynamic-styles");
+        if (!style) {
+            style = document.createElement('style');
+            style.id = "dynamic-styles";
+            document.head.appendChild(style);
         }
-    `;
+
+        style.innerHTML = `
+            @media (max-width: 768px) {
+                #output {
+                    background-image: url("bannermobile.png");
+                    padding: 10px 20px;
+                }
+                #output p {
+                    font-size: 14px;
+                }
+            }
+        `;
+    } else {
+        console.error("Output element not found!");
+    }
 });
