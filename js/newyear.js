@@ -201,6 +201,21 @@ button.addEventListener("click",function (){
         outputEl.style.backgroundRepeat = "no-repeat";
         outputEl.style.backgroundSize = "cover";
         }
+//create style element
+   const style = document.createElement('styel');
+   style.id = "dynamic-styles";
+style.innerHTML = `
+        @media (max-width: 768px) {
+            #yourOutputElementId {
+                background-image: url("banner-mobile.png");
+                padding: 10px 20px;
+            }
+            #yourOutputElementId p {
+                font-size: 14px;
+            }
+        }
+    `;
 
-
+    document.head.appendChild(style);
+}
 });
