@@ -5,222 +5,180 @@
 //function get fortune with math.random
 
 function getFortune (str){
-var value = Math.floor(Math.random() * 72);;
-  if (value == 0){
-    return "You will have a forever partner.";
+var value = Math.floor(Math.random() * 58);;
+   if (value == 0){
+    return "You will go to India and see my grandmother.";
   }
   else if (value == 1){
-    return "You will have lots of love in your family.";
+    return "You will go to LEGOLAND and ride the rides.";
   }
   else if (value == 2){
-    return "You will get a rainbow snake.";
+    return "You will go to Target and get infinity toys.";
   }
   else if (value == 3){
-    return "You will come to my house and play.";
+    return "You will make magic potions with your parents.";
   }
   else if (value == 4){
-    return "You will go to Hawaii and play a lot.";
+    return "You will go to Disneyland and play.";
   }
   else if (value == 5){
-    return "You will go to eat ice cream.";
+    return "You will run in the house and put on goggles.";
   }
    else if (value == 6){
-      return "You will go to In-N-Out.";
+      return "You will go to Fairyland and go down the big dragon slide.";
     }
     else if (value == 7){
-      return "You will go on an adventure to an Amazon Forest.";
+      return "You will go to Candyland and eat a little bit of candy.";
     }
     else if (value == 8){
-      return "You will go to Dubai.";
+      return "You will go skiing and dig for candy in the snow.";
     }
     else if (value == 9){
-      return "You will go to Disney on Ice.";
+      return "You will go on a helicopter to the snow.";
     }
     else if (value == 10){
-      return "You will go to Italy & eat pizza & go to the Leaning Tower of Pisa.";
+      return "You will jump on a bouncy house until it goes flat.";
     }
     else if (value == 11){
-      return "You will go on an adventure on an airplane flight to Hong Kong.";
+      return "Your parents will put glow in the dark nail polish on you.";
     }
     else if (value == 12){
-      return "You will go to Spiderland.";
-    }
-    else if (value == 13){
-      return "You will go to the top of Burj Khalifa (the tallest building in the world)!";
-    }
-    else if (value == 14){
-      return "You will bounce on a silly trampoline.";
-    }
-    else if (value == 15){
-      return "You will bounce in a bouncy castle.";
-    }
-    else if (value == 16){
-      return "You will go to Legoland.";
-    }
-    else if (value == 17){
-      return "You will go to the beach & see crabs & fish.";
-    }
-    else if (value == 18){
-      return "You will have 100 cats.";
-    }
-    else if (value == 19){
-      return "You will see your mom in Oakland.";
-    }
-    else if (value == 20){
-      return "You will go flying from a trampoline into outer space.";
-    }
-    else if (value == 21){
-      return "You will go to Disneyland and go on rides.";
-    }
-    else if (value == 22){
-      return "You will see giant chickens!";
-    }
-    else if (value == 23){
-      return "You will see 100 raindrops coming down from the sky.";
-    }
-    else if (value == 24){
-      return "You will have a flying computer.";
-    }
-    else if (value == 25){
-      return "You will go to the Statue of Unity (the world’s tallest statue).";
-    }
-    else if (value == 26){
-      return "You will go to Tahoe and play and ski in the snow.";
-    }
-    else if (value == 27){
-      return "You will dream about snow and ice.";
-    }
-    else if (value == 28){
-      return "You will dream about turning into a fairy.";
-    }
-    else if (value == 29){
-      return " You will play a magic harp.";
-    }
-    else if (value == 30){
-      return "You will travel to the Pacific Ocean and sit on a boat.";
-    }
-    else if (value == 31){
-      return "You will go to Hawaii and have breakfast and lunch and dinner at restaurants.";
-    }
-    else if (value == 32){
-      return "You will swim in the water & jump & land in a tree.";
-    }
-    else if (value == 33){
-      return "You will fly and land in a tree and play with a crow.";
-    }
-    else if (value == 34){
-      return "You will swim in a lake and play football.";
-    }
-    else if (value == 35){
-      return "You will ride a magic unicorn.";
-    }
-    else if (value == 36){
-      return "You will go to London and ride a double-decker bus.";
-    }
-    else if (value == 37){
-      return "You will see Glowfari.";
-    }
-    else if (value == 38){
-      return "You will go to Mexico and have so much fun with your cousins.";
-    }
-    else if (value == 39){
-      return "You will go to Maui and play in the sand.";
-    }
-    else if (value == 40){
-      return "You will go to Japan & go to a toy store & buy some Japanese toys.";
-    }
-    else if (value == 41){
-      return "You will go to Palm Springs and play a lot.";
-    }
-    else if (value == 42){
-      return "You will go to a star up above with an alien.";
-    }
-    else if (value == 43){
-      return "You will build an ice castle.";
-    }
-    else if (value == 44){
-      return "You will go skiing in Park City.";
-    }
-    else if (value == 45){
-      return "You will eat ice cream at the beach in Hawaii.";
-    }
-    else if (value == 46){
-      return "You will go to a skyscraper every day.";
-    }
-    else if (value == 47){
-      return "You will go to the Transamerica Tower every day.";
-    }
-    else if (value == 48){
-      return "You will go to Trampolinium.";
-    }
-    else if (value == 49){
-      return "You will see Fairyland.";
-    }
-    else if (value == 50){
-      return "You will go to Jumpity Bumpity.";
-    }
-    else if (value == 51){
-      return "You will go to Asia and swim in the Dead Sea.";
-    }
-    else if (value == 52){
-      return "You will go to Antarctica and see seals and penguins.";
-    }
-    else if (value == 53){
-      return "You will go to the Arctic Sea and see a polar bear.";
-    }
-    else if (value == 54){
-      return "You will be a hero.";
-    }
-    else if (value == 55){
-      return "You will go to Hawaii and do fun things.";
-    }
-    else if (value == 56){
-      return "You will go to Australia and see a koala.";
-    }
-    else if (value == 57){
-      return "You will have a dance party on Jupiter.";
-    }
-    else if (value == 58){
-      return "You will go to Mexico and swim in the pools.";
-    }
-    else if (value == 59){
-      return "You will go on an airplane to your cousin’s house.";
-    }
-    else if (value == 60){
-      return "You will tell lots of jokes.";
-    }
-    else if (value == 61){
-      return "You will travel around the sun. Don’t forget your sunglasses!";
-    }
-    else if (value == 62){
-      return "You will go on a train ride to Oakland Zoo.";
-    }
-    else if (value == 63){
-      return "You will count to 100.";
-    }
-    else if (value == 64){
-      return "You will go to Highway 13.";
-    }
-    else if (value == 65){
-      return "You will fly over a mountain.";
-    }
-    else if (value == 66){
       return "You will ski down a mountain.";
     }
-    else if (value == 67){
-      return "You will go to Monster Jam.";
+    else if (value == 13){
+      return "You will ride a unicorn up a hill and sing a very beautiful song.";
     }
-    else if (value == 68){
-      return "You will learn to write fortunes.";
+    else if (value == 14){
+      return "You will sled on your tummy with sunglasses on.";
     }
-    else if (value == 69){
-      return "You will go to a special place and pick lots of flowers.";
+    else if (value == 15){
+      return "You will look in a hat and find candy.";
     }
-    else if (value == 70){
-      return "You will go to Golf Land and play a LOT of arcade games!";
+    else if (value == 16){
+      return "You will drive a car when you are 5.";
     }
-    else if (value == 71){
-      return "You will go to Chuck E. Cheese for your birthday.";
+    else if (value == 17){
+      return "You will sled on a loop to loop track.";
+    }
+    else if (value == 18){
+      return "You will find dino fossils.";
+    }
+    else if (value == 19){
+      return "You will go in a rocket ship to the moon to get some cheese.";
+    }
+    else if (value == 20){
+      return "You will go to a snowy mountain and use an umbrella to slide down.";
+    }
+    else if (value == 21){
+      return "You will go to Las Vegas with your brother.";
+    }
+    else if (value == 22){
+      return "You will climb up a mountain and find some gold.";
+    }
+    else if (value == 23){
+      return "You will get cute shoes.";
+    }
+    else if (value == 24){
+      return "You will sled down a hill and go back up again.";
+    }
+    else if (value == 25){
+      return "You will take an elevator up to a roof and then sled down.";
+    }
+    else if (value == 26){
+      return "You will go to Reno at a hotel and go to a magic show with your brother.";
+    }
+    else if (value == 27){
+      return "You will climb a mountain and get a pot of gold because a leprechaun lived up there and the leprechaun said “Where’s my gold!?”";
+    }
+    else if (value == 28){
+      return "You will go to Disneyland, eat some food and play on the rides.";
+    }
+    else if (value == 29){
+      return "You will go on a huge roller coaster with my sister.";
+    }
+    else if (value == 30){
+      return "You will find dino fossils underground with prehistoric life.";
+    }
+    else if (value == 31){
+      return "You will dig underground and find some gold.";
+    }
+    else if (value == 32){
+      return "You will rescue escaped animals from the zoo.";
+    }
+    else if (value == 33){
+      return "The faster you close your eyes the faster it will be morning.";
+    }
+    else if (value == 34){
+      return "You will go to Disneyland when you are 7 and ride all the rides.";
+    }
+    else if (value == 35){
+      return "You will eat a little bit of candy before dinner.";
+    }
+    else if (value == 36){
+      return "You will slide down palm tree water slides.";
+    }
+    else if (value == 37){
+      return "You will see your nanny again.";
+    }
+    else if (value == 38){
+      return "You will go to Chuck E. Cheese and play the shooting spider game.";
+    }
+    else if (value == 39){
+      return "You will go to Palm Springs and sit on a water slide and an octopus will grab your arm.";
+    }
+    else if (value == 40){
+      return "You will go to Fairyland, eat candy and play.";
+    }
+    else if (value == 41){
+      return "You will go to the zoo in Canada, see flamingos and pretend to be a flamingo.";
+    }
+    else if (value == 42){
+      return "You will be a parent.";
+    }
+    else if (value == 43){
+      return "You will listen to relaxing music.";
+    }
+    else if (value == 44){
+      return "You will catch a dog.";
+    }
+    else if (value == 45){
+      return "On Valentine’s Day you will get lots of cards.";
+    }
+    else if (value == 46){
+      return "You will go to LEGOLAND and play the video games.";
+    }
+    else if (value == 47){
+      return "You will ride a unicorn to the top of a mountain.";
+    }
+    else if (value == 48){
+      return "You will ride a horse and get on an airplane before it leaves.";
+    }
+    else if (value == 49){
+      return "You will get a thousand cookies by magic.";
+    }
+    else if (value == 50){
+      return "You will have a billion and a trillion thousand pieces of treasure and cookies.";
+    }
+    else if (value == 51){
+      return "You will go into the biggest cave ever and pull out a thousand diamonds.";
+    }
+    else if (value == 52){
+      return "At every school you will have a nice time.";
+    }
+    else if (value == 53){
+      return "You will learn to be a king (or queen).";
+    }
+    else if (value == 54){
+      return "You will drive to Fairyland on go on rides.";
+    }
+    else if (value == 55){
+      return "You will go to Hawaii and play in a waterfall.";
+    }
+    else if (value == 56){
+      return "You will do a wheelie on a motorcycle.";
+    }
+    else if (value == 57){
+      return "You will see a monster truck climb a building.";
     }
     else {
       return "You will learn to speak mouse.";
