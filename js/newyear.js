@@ -204,13 +204,13 @@ button.addEventListener("click",function (){
 //create style element
    const style = document.createElement('styel');
    style.id = "dynamic-styles";
-style.innerHTML = `
+style.innerHTML = 
         @media (max-width: 768px) {
-            #yourOutputElementId {
+            #output {
                 background-image: url("bannermobile2.png");
                 padding: 10px 20px;
             }
-            #yourOutputElementId p {
+            #output p {
                 font-size: 14px;
             }
         }
