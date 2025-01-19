@@ -189,18 +189,15 @@ var value = Math.floor(Math.random() * 58);;
 var button = document.getElementById("button");
 button.addEventListener("click",function (){
     var fortune = getFortune();
-    // REMOVE THIS LINE: button.addEventListener("click", console.log("working"));
+   button.addEventListener("click", console.log("working"));
     //output
     var outputEl = document.getElementById ("output");
-    if (outputEl) { // Very important null check
-        outputEl.innerHTML = fortune;
+        outputEl.innerHTML = fortune
         outputEl.style.fontFamily = "Comic Sans MS,Arial,sans-serif";
         outputEl.style.color = " #dfa727";
         outputEl.style.backgroundImage = "url('banner.png')";
         outputEl.style.backgroundPosition = "center";
         outputEl.style.backgroundRepeat = "no-repeat";
         outputEl.style.backgroundSize = "cover";
-        }
-
-
+      
 });
