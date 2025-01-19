@@ -214,7 +214,7 @@ style.innerHTML =
                 font-size: 14px;
             }
         }
-    `;
+    ;
 
     document.head.appendChild(style);
 }
