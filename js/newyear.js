@@ -207,7 +207,7 @@ button.addEventListener("click",function (){
 style.innerHTML = `
         @media (max-width: 768px) {
             #yourOutputElementId {
-                background-image: url("banner-mobile.png");
+                background-image: url("bannermobile2.png");
                 padding: 10px 20px;
             }
             #yourOutputElementId p {
